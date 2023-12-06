@@ -247,7 +247,8 @@ class ContextTest extends TestCase
             image/avif, image/webp, image/apng, */*;q=0.8,
             application/signed-exchange;v=b3;q=0.9', 'html'],
             ['xml', 'xml'],
-            ['text/html, application/json', 'json']
+            ['text/html, application/json', 'json'],
+            ['image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'html']
         ];
     }
 
