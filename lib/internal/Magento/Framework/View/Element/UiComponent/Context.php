@@ -362,7 +362,7 @@ class Context implements ContextInterface
                 $this->acceptType = 'json';
             } elseif (strpos($acceptType, 'html') !== false) {
                 $this->acceptType = 'html';
-            } elseif (strpos($acceptType, 'xml') !== false) {
+            } elseif (strpos($acceptType, 'xml') !== false && strpos($acceptType, 'svg+xml') === false) {
                 $this->acceptType = 'xml';
             }
             break;
